@@ -1,0 +1,1 @@
+console.log("Hola Mundo 9 de Octubre de 2025")
