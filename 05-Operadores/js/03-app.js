@@ -1,0 +1,12 @@
+// undefined
+let numero;
+console.log(numero);
+
+// null
+let numero2 = null
+console.log(numero2);
+
+// comparación
+console.log(numero === numero2);
+
+
