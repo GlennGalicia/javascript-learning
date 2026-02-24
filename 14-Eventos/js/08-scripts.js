@@ -1,6 +1,6 @@
 // Evitar la propagación con contenido creado...
 const parrafo1 = document.createElement('P');
-parrafo1.textContent = 'Concierto';
+parrafo1.textContent = 'Concierto!!';
 parrafo1.classList.add('categoria');
 parrafo1.classList.add('concierto');
 
@@ -13,6 +13,10 @@ parrafo2.classList.add('titulo');
 const parrafo3 = document.createElement('p');
 parrafo3.textContent = '$800 por persona';
 parrafo3.classList.add('precio');
+parrafo3.onclick = (e) => {
+    console.log(e);
+    console.log('click desde nuevo evento');
+}
 
 // crear el div...
 const info = document.createElement('div');
