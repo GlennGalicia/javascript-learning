@@ -10,7 +10,7 @@
   "keywords": [],
   "author": "Glenn Galicia",
   "license": "ISC",
-  "type": "commonjs",
+  "type": "module",
   "devDependencies": {
     "@eslint/js": "^10.0.1",
     "eslint": "^10.0.0",
